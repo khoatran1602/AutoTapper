@@ -1,0 +1,26 @@
+# Gradle and build outputs
+/.gradle/
+/build/
+/app/build/
+
+# Local configuration
+/local.properties
+/app/local.properties
+
+# IDE files
+/.idea/
+*.iml
+*.ipr
+*.iws
+
+# Other artifacts
+captures/
+*.log
+*.apk
+*.keystore
+*.jks
+*.hprof
+.DS_Store
+
+# Additional tooling
+/.externalNativeBuild/
