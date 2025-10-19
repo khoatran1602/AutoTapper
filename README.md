@@ -29,6 +29,20 @@ AutoTapper is an Android accessibility helper that watches for Microsoft Authent
 3. Install the generated APK (`app/build/outputs/apk/debug/app-debug.apk`) on your device.
 4. Enable developer options and USB debugging if you plan to install via `adb`.
 
+### Local Environment Setup
+- Install a JDK that works with Android Gradle Plugin 8.13.0 (JDK 17+). Point `JAVA_HOME` at that installation before running Gradle, for example:
+  - Windows Command Prompt: `set "JAVA_HOME=C:\\Program Files\\Java\\jdk-17"`
+  - PowerShell: `$env:JAVA_HOME='C:\Program Files\Java\jdk-17'`
+  - macOS/Linux/WSL: `export JAVA_HOME=$HOME/jdks/jdk-17.0.x`
+- Make sure the Android SDK is available. If you are outside Android Studio, install the command-line tools and required packages:
+  ```bash
+  sdkmanager "platform-tools" "platforms;android-34" "build-tools;35.0.0"
+  ```
+- Gradle reads the SDK path from `local.properties`, which is intentionally untracked. Create or edit it to match your setup:
+  - Windows: `sdk.dir=C:\Users\<you>\AppData\Local\Android\Sdk`
+  - WSL/Linux/macOS: `sdk.dir=/home/<you>/android-sdk`
+- When you change machines, updating `JAVA_HOME` and `local.properties` is usually all that is required; the rest of the project stays portable.
+
 ## First-Run Setup
 1. Launch AutoTapper and follow the on-screen buttons to:
    - Grant Accessibility Service access.
