@@ -1,0 +1,11 @@
+<accessibility-service xmlns:android="http://schemas.android.com/apk/res/android"
+    android:accessibilityEventTypes="typeNotificationStateChanged|typeWindowStateChanged|typeWindowContentChanged|typeViewClicked|typeViewTextChanged"
+    android:accessibilityFeedbackType="feedbackGeneric"
+    android:accessibilityFlags="flagDefault|flagRetrieveInteractiveWindows|flagIncludeNotImportantViews"
+    android:canRetrieveWindowContent="true"
+    android:canRequestTouchExplorationMode="false"
+    android:notificationTimeout="0"
+    android:packageNames="com.azure.authenticator,com.microsoft.windowsintune.companyportal,android"
+    android:settingsActivity="com.example.autotapper.MainActivity"
+    android:description="@string/accessibility_service_description"
+/>

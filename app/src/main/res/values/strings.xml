@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">AutoTapper</string>
+    <string name="accessibility_service_description">My Accessibility Service</string>
+    <string name="confirm_default_title">Sign-in request</string>
+    <string name="confirm_message">Approve this request?\n%1$s</string>
+    <string name="confirm_approve">Approve</string>
+    <string name="confirm_cancel">Cancel</string>
+
+    <string name="main_screen_title">Welcome to AutoTapper</string>
+    <string name="main_screen_subtitle">Keep your sign-in approvals fast while staying in control.</string>
+    <string name="status_card_title">Current setup</string>
+    <string name="status_accessibility_enabled">Accessibility service is on</string>
+    <string name="status_accessibility_disabled">Accessibility service is off</string>
+    <string name="status_overlay_enabled">Overlay permission is on</string>
+    <string name="status_overlay_disabled">Overlay permission is off</string>
+    <string name="status_accessibility_helper">Required so AutoTapper can watch for authenticator prompts.</string>
+    <string name="status_overlay_helper">Needed so AutoTapper can show the quick approval banner.</string>
+    <string name="button_open_accessibility_settings">Open accessibility settings</string>
+    <string name="button_open_overlay_settings">Open overlay permission</string>
+    <string name="footer_tip_header">Tip</string>
+    <string name="footer_tip_body">After granting both permissions, send yourself a test approval to make sure everything works as expected.</string>
+</resources>

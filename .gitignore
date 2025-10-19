@@ -2,6 +2,8 @@
 /.gradle/
 /build/
 /app/build/
+app/.gradle/
+app/.idea/
 
 # Local configuration
 /local.properties
